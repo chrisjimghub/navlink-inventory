@@ -1,5 +1,6 @@
 {{-- This file is used for menu items by any Backpack v6 theme --}}
 <li class="nav-item"><a class="nav-link" href="{{ backpack_url('dashboard') }}"><i class="la la-home nav-icon"></i> {{ trans('backpack::base.dashboard') }}</a></li>
+<li class="nav-item"><a class="nav-link" href="{{ backpack_url('Product') }}"><i class="la la-tags nav-icon"></i>Products</a></li>
 
 <x-backpack::menu-dropdown title="Add-ons" icon="la la-puzzle-piece">
     <x-backpack::menu-dropdown-header title="Authentication" />
